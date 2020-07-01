@@ -28,6 +28,7 @@ class Calculator:
         self.result = multiplication(a, b)
         return self.result
 
+    
 
 
 
