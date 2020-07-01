@@ -33,7 +33,7 @@ class MyTestCase(unittest.TestCase):
         self.calculator.square(5)
         self.assertEqual(self.calculator.result,25)
 
-    def test_square_method_calculator(self):
+    def test_squareroot_method_calculator(self):
         self.calculator.squareroot(64)
         self.assertEqual(self.calculator.result,8)
 
