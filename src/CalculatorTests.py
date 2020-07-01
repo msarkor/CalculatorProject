@@ -30,8 +30,8 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.calculator.result,4)
 
     def test_square_method_calculator(self):
-        self.calculator.square(2, 3)
-        self.assertEqual(self.calculator.result,8)
+        self.calculator.square(5)
+        self.assertEqual(self.calculator.result,25)
 
 
 if __name__ == '__main__':

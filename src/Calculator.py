@@ -10,8 +10,11 @@ def multiplication(a, b):
 def division(a, b):
     return float(b) / float(a)
 
-def square(a, b):
-    return a ** b
+def square(a):
+    return a ** 2
+
+def squaretoor(a, b):
+    return
 
 class Calculator:
     result = 0
@@ -35,8 +38,8 @@ class Calculator:
         self.result = division(a, b)
         return self.result
 #square root test
-    def square(self, a, b):
-        self.result = square(a,b)
+    def square(self, a):
+        self.result = square(a)
         return self.result
 
 
