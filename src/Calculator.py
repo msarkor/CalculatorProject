@@ -34,7 +34,7 @@ class Calculator:
     def division(self, a, b):
         self.result = division(a, b)
         return self.result
-
+#square root test
     def square(self, a, b):
         self.result = square(a,b)
         return self.result
