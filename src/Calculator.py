@@ -4,9 +4,11 @@ def Addition(a, b):
 def subtraction(a, b):
     return a - b
 
-def multiply(a, b):
+def multiplication(a, b):
     return a * b
 
+def division(a, b):
+    return float(b) / float(a)
 
 class Calculator:
     result = 0
@@ -20,6 +22,10 @@ class Calculator:
 
     def subtraction(self, a, b):
         self.result = subtraction(a, b)
+        return self.result
+
+    def multiplication(self, a, b):
+        self.result = multiplication(a, b)
         return self.result
 
 
