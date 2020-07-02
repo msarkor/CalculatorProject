@@ -1,6 +1,6 @@
 import csv
-from Fileutilities.absolutepath import absolutepath
-
+import os
+import importlib.util
 
 def ClassFactory(class_name, dictionary):
     return type(class_name, (object,), dictionary)

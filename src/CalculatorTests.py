@@ -1,6 +1,7 @@
 import unittest
 from Calculator import Calculator
 import csv
+import pprint
 
 class MyTestCase(unittest.TestCase):
     def setUp(self):
@@ -37,6 +38,10 @@ class MyTestCase(unittest.TestCase):
         self.calculator.squareroot(64)
         self.assertEqual(self.calculator.result,8)
 
+#CSV Testing
+    def test_subtraction(self):
+        text_data = csv.reader("/ExampleCSVs/Subtraction.csv").data
+        pprint(self.data)
 
 if __name__ == '__main__':
     unittest.main()
